@@ -13,6 +13,31 @@ Rather than passively reading, my approach is to mathematically reconstruct the 
 * **Zero "Skipped" Steps:** Fleshing out the implicit mathematical transitions, unstated assumptions, and intermediate proofs that the original authors omitted for brevity.
 * **Logical Traceability:** Every equation is treated as a theorem to be proven, ensuring absolute logical continuity.
 
+## 👁️ Glimpse into the Manuscripts
+
+To illustrate the standard of rigor, mathematical continuity, and visual clarity maintained throughout this repository, below are selected excerpts from my recent handwritten derivations. 
+
+These snippets highlight my approach to unpacking complex mathematical transitions, from Lagrangian formulations and scattering cross-sections to Hamiltonian phase space and Quantum state vectors.
+
+<table>
+  <tr>
+    <td align="center"><b>Landau: Analytical Mechanics</b><br>(Lagrangian Formulation & Coupled Oscillators)</td>
+    <td align="center"><b>Sakurai & Goldstein: Quantum & Classical Mechanics</b><br>(Unitary Transformations & Dirac Notation)</td>
+  </tr>
+  <tr>
+    <td><img src="Landao_2_preview.jpg" alt="Landau Lagrangian & Normal Modes" width="450"/></td>
+    <td><img src="Quantum_1_preview.jpg" alt="Sakurai Dirac Notation & Unitary Operators" width="450"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Landau: Analytical Mechanics</b><br>(Small-Angle Scattering Integrals)</td>
+    <td align="center"><b>Goldstein: Classical Mechanics</b><br>(Legendre Transforms & Canonical Trans.)</td>
+  </tr>
+  <tr>
+    <td><img src="Landao_1_preview.jpg" alt="Landau Scattering Integrals" width="450"/></td>
+    <td><img src="Quantum_2_preview.jpg" alt="Goldstein Canonical Transformations" width="450"/></td>
+  </tr>
+</table>
+
 ## 🚀 Current Trajectory & Progress
 
 I am currently navigating through the following foundational texts. The pacing is dictated by depth of understanding rather than reading speed.
