@@ -1,155 +1,95 @@
-# Advanced Theoretical Physics Manuscripts  
-### Interactive Quantum Theory Demonstrations for Education and Open Science
+# Advanced Theoretical Physics Manuscripts
 
 [![Repository](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/Leo-ChengXuLiu/Advanced-Theoretical-Physics-Manuscripts)
 [![Language](https://img.shields.io/badge/Language-Jupyter%20Notebook-blue)](https://github.com/Leo-ChengXuLiu/Advanced-Theoretical-Physics-Manuscripts)
 
-An open educational project building **interactive, research-grade quantum theory demonstrations** from advanced textbook material (currently focused on *Sakurai*), starting with a newly added **interactive coherent-state module**.
+A curated collection of advanced theoretical physics manuscripts, rigorous mathematical derivations, and computational demonstrations. This repository bridges the gap between **analytical textbook physics** (with a focus on Sakurai's *Modern Quantum Mechanics* and Landau's *Theoretical Physics*) and **numerical intuition** through interactive code.
 
 ---
 
-## 1. Project Vision
+## 🧠 Theoretical Derivations & Handwritten Manuscripts
 
-This repository aims to bridge the gap between:
-- formal theoretical derivations in advanced quantum mechanics, and
-- hands-on computational intuition through interactive notebooks.
+A core component of this repository is the meticulous, step-by-step derivation of advanced quantum and classical mechanics concepts. Rather than just presenting final formulas, I focus on the underlying mathematical physics, exploring the nuances of operator formalism, quantum dynamics, and state evolution.
 
-The core idea is simple:  
-> turn difficult abstract concepts into manipulable, visual, reproducible learning objects.
+Below are selected excerpts from my handwritten manuscripts, showcasing detailed analytical derivations:
 
----
-
-## 2. What’s New
-
-## ✅ Interactive Coherent State Demo (Sakurai Section)
-
-I recently added an **interactive coherent state demonstration** that allows users to explore coherent-state behavior by changing key parameters and observing the resulting dynamics/representations.
-
-This module is the first step in a broader notebook series of interactive Sakurai-based quantum theory demonstrations.
+<p align="center">
+  <img src="Sakurai_quantum/Handwritten%20img/Quantum_1_preview.jpg" width="45%" alt="Quantum Mechanics Derivation 1">
+  &nbsp; &nbsp;
+  <img src="Sakurai_quantum/Handwritten%20img/Quantum_2_preview.jpg" width="45%" alt="Quantum Mechanics Derivation 2">
+</p>
+<p align="center">
+  <img src="Sakurai_quantum/Handwritten%20img/Landao_1_preview.jpg" width="45%" alt="Landau Mechanics Derivation 1">
+  &nbsp; &nbsp;
+  <img src="Sakurai_quantum/Handwritten%20img/Landao_2_preview.jpg" width="45%" alt="Landau Mechanics Derivation 2">
+</p>
 
 ---
 
-## 3. Why This Matters
+## 💻 Interactive Computational Demonstrations
 
-Advanced quantum mechanics is often taught in a mathematically rigorous but non-interactive format.  
-This project provides:
-- **Conceptual accessibility** without sacrificing rigor
-- **Reproducible computational pedagogy**
-- **Open educational infrastructure** for students, educators, and self-learners
+To complement the analytical derivations, I am developing a series of **interactive Jupyter Notebooks**. These serve to translate abstract quantum theory into manipulable, visual, and reproducible computational experiments.
 
-Potential impact:
-- Faster understanding of foundational quantum concepts
-- Better transfer from equations to physical intuition
-- Reusable notebook components for broader quantum education efforts
+### ✨ Highlight: Interactive Coherent State (Sakurai)
+I have recently added a comprehensive interactive demonstration of **Coherent States**, inspired by Sakurai's treatment of the quantum harmonic oscillator. 
 
----
+<p align="center">
+  <img src="Sakurai_quantum/Handwritten%20img/Coherent_1.png" width="80%" alt="Coherent State Preview">
+</p>
 
-## 4. Funding Use Plan (Proposed)
+**Features of this module:**
+- **Parameter-Tunable Exploration:** Users can dynamically adjust eigenvalues ($\alpha$) and time-evolution parameters to observe wave packet behavior.
+- **Visualizing Quantum Dynamics:** Real-time plotting of probability densities and phase space trajectories.
+- **Bridging Math and Code:** The numerical implementation directly mirrors the analytical derivations presented in my handwritten notes.
 
-Support will be used to accelerate development of a structured set of open interactive modules, including:
-
-1. **New interactive demos**  
-   Extend beyond coherent states to additional Sakurai topics (e.g., spin dynamics, perturbation intuition, angular momentum visualization).
-
-2. **Pedagogical refinement**  
-   Improve notebook narrative design, modularization, and concept scaffolding for learners at different levels.
-
-3. **Open-source quality improvements**  
-   Better documentation, reproducibility setup, testing of notebook behavior, and usability polish.
-
-4. **Community accessibility**  
-   Public release, clear usage instructions, and stable examples for teaching and self-study.
+**Future Updates:**  
+I am actively developing and will continue to upload more interactive demonstrations (e.g., Spin Dynamics, Time-Dependent Perturbation Theory, and Path Integrals) to expand this computational physics suite.
 
 ---
 
-## 5. Roadmap
+## 📁 Repository Structure
 
-### Phase 1 (Current / Near-term)
-- [x] Interactive coherent state notebook (initial version)
-- [ ] README + project structure standardization
-- [ ] Environment and dependency reproducibility cleanup
-
-### Phase 2
-- [ ] Add multiple new interactive Sakurai modules
-- [ ] Introduce shared plotting/util utility layer
-- [ ] Add guided exploration tasks in each notebook
-
-### Phase 3
-- [ ] Package demos into a coherent educational track
-- [ ] Improve onboarding for external contributors
-- [ ] Publish project showcase examples
-
----
-
-## 6. Deliverables
-
-Planned open deliverables include:
-- A growing set of interactive Jupyter notebooks for advanced quantum theory
-- Reproducible environment instructions
-- Structured documentation for educational use
-- Publicly accessible source code and future extensions
-
----
-
-## 7. Repository Scope
-
-Current language composition: **Jupyter Notebook (100%)**
-
-Suggested structure (will evolve):
 ```text
 .
-├── sakurai/
-│   ├── coherent_state_interactive.ipynb
-│   └── ...
-├── docs/
+├── Sakurai_quantum/
+│   ├── Interactive Jupyternotebook/     # Interactive Python demos
+│   ├── Handwritten img/                 # Analytical derivations & previews
+│   └── Sakurai-Quantum.pdf              # Core reference text
+├── Landao_mechanics/
 │   └── ...
 └── README.md
 ```
 
 ---
 
-## 8. Getting Started
+## 🚀 Running the Interactive Notebooks
 
-### Clone
+If you would like to run the computational demonstrations locally:
+
+### 1. Clone the repository
 ```bash
 git clone https://github.com/Leo-ChengXuLiu/Advanced-Theoretical-Physics-Manuscripts.git
 cd Advanced-Theoretical-Physics-Manuscripts
 ```
 
-### Run
-```bash
-jupyter notebook
-```
-
-Open the notebook(s) in `sakurai/` to begin interactive exploration.
-
----
-
-## 9. Recommended Environment
-
-- Python 3.10+
-- Jupyter Notebook / JupyterLab
-- numpy
-- matplotlib
-- ipywidgets
-
-Install common dependencies:
+### 2. Install Requirements
+The notebooks utilize standard scientific computing libraries.
 ```bash
 pip install numpy matplotlib ipywidgets notebook
 ```
 
----
-
-## 10. Open Science & Community
-
-This project is being developed as an **open, extensible educational resource**.  
-Feedback, issue reports, and collaboration ideas are welcome.
-
-If you are interested in quantum pedagogy, scientific computing, or interactive textbook-style demos, contributions are encouraged.
+### 3. Launch Jupyter
+```bash
+jupyter notebook
+```
+Navigate to `Sakurai_quantum/Interactive Jupyternotebook/` to explore the interactive code.
 
 ---
 
-## 11. Contact / Maintainer
+## 🤝 About & Contact
 
-**Maintainer:** [@Leo-ChengXuLiu](https://github.com/Leo-ChengXuLiu)  
-**Repository:** https://github.com/Leo-ChengXuLiu/Advanced-Theoretical-Physics-Manuscripts
+This project serves as both a **personal academic portfolio** and an **open educational resource** for students and researchers interested in computational and theoretical physics. 
+
+Whether you are reviewing my application, looking for pedagogical tools in quantum mechanics, or interested in scientific computing, feel free to explore the repository.
+
+**Maintainer:** [Leo-ChengXuLiu](https://github.com/Leo-ChengXuLiu)
