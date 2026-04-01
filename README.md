@@ -1,62 +1,155 @@
-# ⚛️ Advanced Theoretical Physics Manuscripts
+# Advanced Theoretical Physics Manuscripts  
+### Interactive Quantum Theory Demonstrations for Education and Open Science
 
-**Maintainer:** Chengxu (Leo) Liu 
-**Focus:** Analytical Mechanics, Quantum Mechanics, and Mathematical Derivations
+[![Repository](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/Leo-ChengXuLiu/Advanced-Theoretical-Physics-Manuscripts)
+[![Language](https://img.shields.io/badge/Language-Jupyter%20Notebook-blue)](https://github.com/Leo-ChengXuLiu/Advanced-Theoretical-Physics-Manuscripts)
 
-## 📌 Repository Overview
-This repository serves as a living, digitized archive of my independent self-study manuscripts focusing on foundational, graduate-level theoretical physics texts. 
+An open educational project building **interactive, research-grade quantum theory demonstrations** from advanced textbook material (currently focused on *Sakurai*), starting with a newly added **interactive coherent-state module**.
 
-Rather than passively reading, my approach is to mathematically reconstruct the texts from the ground up. Theoretical physics classics are notorious for leaving massive pedagogical gaps (e.g., Landau's infamous "it is easy to see"). The primary value of these manuscripts lies in unpacking those condensed leaps of logic into complete, rigorous, step-by-step derivations.
+---
 
-## 📝 Features of the Manuscripts
-* **Strictly Handwritten & Digitized:** I maintain high standards for penmanship and structural layout to ensure complex tensor and operator mathematics are highly readable.
-* **Zero "Skipped" Steps:** Fleshing out the implicit mathematical transitions, unstated assumptions, and intermediate proofs that the original authors omitted for brevity.
-* **Logical Traceability:** Every equation is treated as a theorem to be proven, ensuring absolute logical continuity.
+## 1. Project Vision
 
-## 👁️ Glimpse into the Manuscripts
+This repository aims to bridge the gap between:
+- formal theoretical derivations in advanced quantum mechanics, and
+- hands-on computational intuition through interactive notebooks.
 
-To illustrate the standard of rigor, mathematical continuity, and visual clarity maintained throughout this repository, below are selected excerpts from my recent handwritten derivations. 
+The core idea is simple:  
+> turn difficult abstract concepts into manipulable, visual, reproducible learning objects.
 
-These snippets highlight my approach to unpacking complex mathematical transitions, from Lagrangian formulations and scattering cross-sections to Hamiltonian phase space and Quantum state vectors.
+---
 
-<table>
-  <tr>
-    <td align="center"><b>Landau: Analytical Mechanics</b><br>(Lagrangian Formulation & Coupled Oscillators)</td>
-    <td align="center"><b>Sakurai & Goldstein: Quantum & Classical Mechanics</b><br>(Unitary Transformations & Dirac Notation)</td>
-  </tr>
-  <tr>
-    <td><img src="Landao_2_preview.jpg" alt="Landau Lagrangian & Normal Modes" width="450"/></td>
-    <td><img src="Quantum_1_preview.jpg" alt="Sakurai Dirac Notation & Unitary Operators" width="450"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Landau: Analytical Mechanics</b><br>(Small-Angle Scattering Integrals)</td>
-    <td align="center"><b>Goldstein: Classical Mechanics</b><br>(Legendre Transforms & Canonical Trans.)</td>
-  </tr>
-  <tr>
-    <td><img src="Landao_1_preview.jpg" alt="Landau Scattering Integrals" width="450"/></td>
-    <td><img src="Quantum_2_preview.jpg" alt="Goldstein Canonical Transformations" width="450"/></td>
-  </tr>
-</table>
+## 2. What’s New
 
-## 🚀 Current Trajectory & Progress
+## ✅ Interactive Coherent State Demo (Sakurai Section)
 
-I am currently navigating through the following foundational texts. The pacing is dictated by depth of understanding rather than reading speed.
+I recently added an **interactive coherent state demonstration** that allows users to explore coherent-state behavior by changing key parameters and observing the resulting dynamics/representations.
 
-### 1. L.D. Landau & E.M. Lifshitz: *Mechanics* (Course of Theoretical Physics, Vol. 1)
-* **Status:** ~50% Completed.
-* **Focus:** Deep dive into the principle of least action, conservation laws derived from space-time symmetries, and the rigorous integration of equations of motion.
+This module is the first step in a broader notebook series of interactive Sakurai-based quantum theory demonstrations.
 
-### 2. J.J. Sakurai: *Modern Quantum Mechanics*
-* **Status:** Chapter 3 
-* **Context:** Currently working through the rotation spin1/2 so3_su2 
+---
 
-### 3. H. Goldstein: *Classical Mechanics* (The "Side-Quest")
-* **Status:** Deep-diving into **Chapter 9** (Canonical Transformations & Hamilton-Jacobi Theory).
-* **Context:** While studying Sakurai's Chapter 1, I encountered deep reliance on the classical Hamiltonian formalism and Poisson brackets as the foundation for quantum commutators. To ensure my foundation is absolutely bulletproof, I have temporarily paused Sakurai to master the classical analogs in Goldstein before proceeding further into Quantum Mechanics.
+## 3. Why This Matters
 
-## 📂 Structure (Upcoming)
-*(PDF scans of my handwritten derivations will be progressively uploaded and categorized by textbook and chapter).*
+Advanced quantum mechanics is often taught in a mathematically rigorous but non-interactive format.  
+This project provides:
+- **Conceptual accessibility** without sacrificing rigor
+- **Reproducible computational pedagogy**
+- **Open educational infrastructure** for students, educators, and self-learners
 
-* `/Landau_Mechanics_Vol1`
-* `/Sakurai_Modern_QM`
-* `/Goldstein_Classical_Mechanics`
+Potential impact:
+- Faster understanding of foundational quantum concepts
+- Better transfer from equations to physical intuition
+- Reusable notebook components for broader quantum education efforts
+
+---
+
+## 4. Funding Use Plan (Proposed)
+
+Support will be used to accelerate development of a structured set of open interactive modules, including:
+
+1. **New interactive demos**  
+   Extend beyond coherent states to additional Sakurai topics (e.g., spin dynamics, perturbation intuition, angular momentum visualization).
+
+2. **Pedagogical refinement**  
+   Improve notebook narrative design, modularization, and concept scaffolding for learners at different levels.
+
+3. **Open-source quality improvements**  
+   Better documentation, reproducibility setup, testing of notebook behavior, and usability polish.
+
+4. **Community accessibility**  
+   Public release, clear usage instructions, and stable examples for teaching and self-study.
+
+---
+
+## 5. Roadmap
+
+### Phase 1 (Current / Near-term)
+- [x] Interactive coherent state notebook (initial version)
+- [ ] README + project structure standardization
+- [ ] Environment and dependency reproducibility cleanup
+
+### Phase 2
+- [ ] Add multiple new interactive Sakurai modules
+- [ ] Introduce shared plotting/util utility layer
+- [ ] Add guided exploration tasks in each notebook
+
+### Phase 3
+- [ ] Package demos into a coherent educational track
+- [ ] Improve onboarding for external contributors
+- [ ] Publish project showcase examples
+
+---
+
+## 6. Deliverables
+
+Planned open deliverables include:
+- A growing set of interactive Jupyter notebooks for advanced quantum theory
+- Reproducible environment instructions
+- Structured documentation for educational use
+- Publicly accessible source code and future extensions
+
+---
+
+## 7. Repository Scope
+
+Current language composition: **Jupyter Notebook (100%)**
+
+Suggested structure (will evolve):
+```text
+.
+├── sakurai/
+│   ├── coherent_state_interactive.ipynb
+│   └── ...
+├── docs/
+│   └── ...
+└── README.md
+```
+
+---
+
+## 8. Getting Started
+
+### Clone
+```bash
+git clone https://github.com/Leo-ChengXuLiu/Advanced-Theoretical-Physics-Manuscripts.git
+cd Advanced-Theoretical-Physics-Manuscripts
+```
+
+### Run
+```bash
+jupyter notebook
+```
+
+Open the notebook(s) in `sakurai/` to begin interactive exploration.
+
+---
+
+## 9. Recommended Environment
+
+- Python 3.10+
+- Jupyter Notebook / JupyterLab
+- numpy
+- matplotlib
+- ipywidgets
+
+Install common dependencies:
+```bash
+pip install numpy matplotlib ipywidgets notebook
+```
+
+---
+
+## 10. Open Science & Community
+
+This project is being developed as an **open, extensible educational resource**.  
+Feedback, issue reports, and collaboration ideas are welcome.
+
+If you are interested in quantum pedagogy, scientific computing, or interactive textbook-style demos, contributions are encouraged.
+
+---
+
+## 11. Contact / Maintainer
+
+**Maintainer:** [@Leo-ChengXuLiu](https://github.com/Leo-ChengXuLiu)  
+**Repository:** https://github.com/Leo-ChengXuLiu/Advanced-Theoretical-Physics-Manuscripts
