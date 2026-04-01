@@ -47,8 +47,8 @@ I am currently navigating through the following foundational texts. The pacing i
 * **Focus:** Deep dive into the principle of least action, conservation laws derived from space-time symmetries, and the rigorous integration of equations of motion.
 
 ### 2. J.J. Sakurai: *Modern Quantum Mechanics*
-* **Status:** Chapter 2 (Fundamental Concepts)
-* **Context:** Currently working through the Dirac bra-ket formalism, measurement theory, and observables. 
+* **Status:** Chapter 3 
+* **Context:** Currently working through the rotation spin1/2 so3_su2 
 
 ### 3. H. Goldstein: *Classical Mechanics* (The "Side-Quest")
 * **Status:** Deep-diving into **Chapter 9** (Canonical Transformations & Hamilton-Jacobi Theory).
